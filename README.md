@@ -1,0 +1,1 @@
+# magazine-strapi-template
