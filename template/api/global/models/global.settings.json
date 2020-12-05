@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "globals",
+  "info": {
+    "name": "Global",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "site_name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "site_url": {
+      "type": "string",
+      "required": true,
+      "regex": "^(http|https)://"
+    },
+    "social_urls": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.social-links",
+      "required": false
+    }
+  }
+}

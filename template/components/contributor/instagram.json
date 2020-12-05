@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_links_instagrams",
+  "info": {
+    "name": "social_urls",
+    "icon": "camera-retro",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "instagram": {
+      "type": "string",
+      "regex": "^((?!instagram).)*$"
+    },
+    "twitter": {
+      "type": "string",
+      "regex": "^((?!twitter).)*$",
+      "required": false
+    },
+    "facebook": {
+      "type": "string",
+      "regex": "^((?!facebook).)*$"
+    },
+    "linkedin": {
+      "type": "string",
+      "regex": "^((?!linkedin).)*$"
+    }
+  }
+}
