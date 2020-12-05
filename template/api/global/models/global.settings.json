@@ -36,7 +36,7 @@
     "social_urls": {
       "type": "component",
       "repeatable": false,
-      "component": "global.social-links",
+      "component": "global.main-social-urls",
       "required": false
     }
   }

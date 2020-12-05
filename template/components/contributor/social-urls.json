@@ -1,5 +1,5 @@
 {
-  "collectionName": "components_links_instagrams",
+  "collectionName": "components_contributor_social_urls",
   "info": {
     "name": "social_urls",
     "icon": "camera-retro",
@@ -7,14 +7,13 @@
   },
   "options": {},
   "attributes": {
+    "twitter": {
+      "type": "string",
+      "regex": "^((?!twitter).)*$"
+    },
     "instagram": {
       "type": "string",
       "regex": "^((?!instagram).)*$"
-    },
-    "twitter": {
-      "type": "string",
-      "regex": "^((?!twitter).)*$",
-      "required": false
     },
     "facebook": {
       "type": "string",

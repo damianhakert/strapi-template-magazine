@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_links_social_links",
+  "collectionName": "components_global_main_social_urls",
   "info": {
-    "name": "global_social_urls",
+    "name": "main_social_urls",
     "icon": "address-card",
     "description": ""
   },

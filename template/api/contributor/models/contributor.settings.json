@@ -27,7 +27,7 @@
     "urls": {
       "type": "component",
       "repeatable": false,
-      "component": "contributor.instagram",
+      "component": "contributor.social-urls",
       "required": true
     },
     "featured": {
