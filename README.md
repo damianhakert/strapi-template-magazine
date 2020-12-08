@@ -1,4 +1,4 @@
-# magazine-strapi-template
+# strapi-template-magazine
 
 A Strapi template to create pre-configured Strapi blogs and online magazine projects.
 
@@ -6,10 +6,10 @@ A Strapi template to create pre-configured Strapi blogs and online magazine proj
 
 ```bash
 # Using Yarn
-yarn create strapi-app my-app-name --template https://github.com/edgarlr/magazine-strapi-template
+yarn create strapi-app my-app-name --template https://github.com/edgarlr/strapi-template-magazine
 
 # Or using NPM
-npx create-strapi-app my-app-name --template https://github.com/edgarlr/magazine-strapi-template
+npx create-strapi-app my-app-name --template https://github.com/edgarlr/strapi-template-magazine
 ```
 
 ## Integrations
