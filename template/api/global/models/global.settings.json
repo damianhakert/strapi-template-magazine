@@ -15,6 +15,11 @@
       "type": "string",
       "required": true
     },
+    "site_url": {
+      "type": "string",
+      "required": true,
+      "regex": "^(http|https)://"
+    },
     "description": {
       "type": "text",
       "required": true
@@ -27,11 +32,6 @@
       ],
       "plugin": "upload",
       "required": true
-    },
-    "site_url": {
-      "type": "string",
-      "required": true,
-      "regex": "^(http|https)://"
     },
     "social_urls": {
       "type": "component",
