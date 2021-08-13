@@ -166,7 +166,7 @@ async function importArticles() {
       const entry = getEntryWithRelations(article, categories, authors);
 
       const files = {
-        image: getFileData(`${article.slug}.jpeg`),
+        cover: getFileData(`${article.slug}.jpeg`),
       };
 
       return createEntry({
