@@ -6,14 +6,14 @@ A Strapi template to create pre-configured Strapi blogs and online magazine proj
 
 ```bash
 # Using Yarn
-yarn create strapi-app my-app-name --template https://github.com/edgarlr/strapi-template-magazine
+yarn create strapi-app my-app-name --template edgarlr/magazine
 
 # Or using NPM
-npx create-strapi-app my-app-name --template https://github.com/edgarlr/strapi-template-magazine
+npx create-strapi-app my-app-name --template edgarlr/magazine
 ```
 
 ## Integrations
 
 This Strapi template integrates out-of-the-box with:
 
-- [Magazine - Next.js starter kit.](https://github.com/edgarlr/magazine)
+- [Magazine - Strapi Next.js starter kit.](https://github.com/edgarlr/strapi-starter-next-magazine)
