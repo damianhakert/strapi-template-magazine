@@ -1,0 +1,155 @@
+{
+  "categories": [
+    {
+      "title": "News",
+      "slug": "news",
+      "description": "This description will be used for the SEO"
+    },
+    {
+      "title": "Tech",
+      "slug": "tech",
+      "description": "This description will be used for the SEO"
+    },
+    {
+      "title": "Politics",
+      "slug": "politics",
+      "description": "This description will be used for the SEO"
+    },
+    {
+      "title": "Culture",
+      "slug": "culture",
+      "description": "This description will be used for the SEO"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Paula Souza",
+      "slug": "paula-souza",
+      "role": "Writter",
+      "urls": {
+        "twitter": null,
+        "instagram": null,
+        "facebook": null,
+        "linkedin": null
+      },
+      "featured": {
+        "description": "Contributor description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "profile_image": null
+      }
+    },
+    {
+      "name": "Samuel Girve",
+      "slug": "samuel-girve",
+      "role": "Writter",
+      "urls": {
+        "twitter": null,
+        "instagram": null,
+        "facebook": null,
+        "linkedin": null
+      },
+      "featured": {
+        "description": "Contributor description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "profile_image": null
+      }
+    },
+    {
+      "name": "Darran Shen",
+      "slug": "darran-shen",
+      "role": "Writter",
+      "urls": {
+        "twitter": null,
+        "instagram": null,
+        "facebook": null,
+        "linkedin": null
+      },
+      "featured": {
+        "description": "Contributor description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "profile_image": null
+      }
+    }
+  ],
+  "pages": [
+    {
+      "title": "Getting Started",
+      "slug": "getting-started",
+      "description": "All-in-one open source digital magazine starter kit with high performance and fully customizable. Built using Next.js, TypeScript, Tailwind, and Strapi CMS.\n\n",
+      "content": "[Magazine](https://github.com/edgarlr/magazine) is an Open Source Digital Magazine built using [Next.js](https://nextjs.org/), [TypeScript](https://nextjs.org/docs/basic-features/typescript), [Tailwind](https://tailwindcss.com/), and [Strapi CMS](https://strapi.io/).\n\nThe project is pre-configured to set it up and deploy it in just a few clicks. All the instructions are available on the Github repositories.\n\n## Source Code\n\nThe project is fully open source and the source code is available on Github. The project is pre-configured for use it as a template and all the instructions to get it up and running are available on the Github repository.\n\n[Magazine on Github](https://github.com/edgarlr/magazine)\n\n## CMS\nThe project was built using Strapi CMS which is an Open Source and Self-hosted headless CMS. \n\n[Magazine Strapi Template](https://github.com/edgarlr/strapi-template-magazine) contains all the instruction to bootstrap your project and then you can configure the [media upload provider](https://strapi.io/documentation/developer-docs/latest/development/plugins/upload.html) of your preference and [deploy it](https://strapi.io/documentation/developer-docs/latest/setup-deployment-guides/deployment.html) wherever you prefer.\n\n[Magazine Heroku](https://github.com/edgarlr/magazine-api) is the Strapi CMS pre-configured with [Cloudinary](https://cloudinary.com/) as media upload provider and ready for production. You can deploy it to Heroku with just **one click**\n\n## Deployment\nYou can use the platform of your preference. \n\nFor this demo I'm using [Vercel](https://vercel.com) for the frontend and [Heroku](https://www.heroku.com/) for the CMS.",
+      "cover": null
+    },
+    {
+      "title": "Features",
+      "slug": "features",
+      "description": "All-in-one open source digital magazine starter kit with high performance and fully customizable. Built using Next.js, TypeScript, Tailwind, and Strapi CMS.\n",
+      "content": "[Magazine](https://github.com/edgarlr/magazine) is an Open Source and fully customizable digital magazine. \n\nThe project was built using [Next.js](https://nextjs.org/), [TypeScript](https://nextjs.org/docs/basic-features/typescript), [Tailwind](https://tailwindcss.com/), and [Strapi CMS](https://strapi.io/).\n\n## General Features\n\n- Great Performance\n- Clean Design\n- SEO and Social Media Friendly\n- PWA Friendly. **Installable**\n- **Light** and **Dark** Theme\n- Fully Responsive\n- Save articles and read them **offline**\n- Offline support\n- Fully customizable\n- Share post menu\n- Google Analytics\n\n## For Editors\n\n- Publication System (Draft & published)\n- Preview Unpublished Content (Articles and pages).\n- **2 Contributor** types (Featured and default).\n- Role-based access controls\n\n## Other features\n\n- Slug System\n- Dynamically generated sitemap\n- Search module and hooks.\n- Automatic dark version depending on the system settings\n- Custom 404 Page\n- Custom Offline Page\n- Author Page\n- Category (tag) Page\n- Slider for featured posts on mobile view\n- Self-hosted fonts\n- UI Components (Toast, Menu, Drawer, etc.)\n\n## Credits\n\nDeveloped by: [Edgar López](https://github.com/edgarlr).\n\nDesigned by: [Edgar López](https://www.figma.com/@edgarlr) and [Fabrizzio Moncada](https://www.figma.com/@fabrizzio).\n\nAll photos used in the theme demo are from [Unsplash](https://unsplash.com/)\n",
+      "cover": null
+    }
+  ],
+  "articles": [
+    {
+      "title": "The pandemic in numbers",
+      "slug": "the-pandemic-in-numbers",
+      "description": "Article Description. Will be used for SEO",
+      "author": {
+        "id": 1
+      },
+      "category": {
+        "id": 1
+      },
+      "content": "Nam libero justo laoreet sit amet cursus. Fringilla ut morbi tincidunt augue. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget.\n\n> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n### Simple default styles for headings\n\nFeugiat in fermentum posuere urna nec tincidunt praesent. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. \n\n#### Simple default styles for headings\n\nEnim praesent elementum facilisis leo. Auctor elit sed vulputate mi sit amet mauris. Feugiat in ante metus dictum at. Adipiscing elit duis tristique sollicitudin nibh. Adipiscing tristique risus nec feugiat. Quisque sagittis purus sit amet. Eget sit amet tellus cras adipiscing enim eu turpis egestas.",
+      "cover": null
+    },
+    {
+      "title": "Can Facebook fix himself?",
+      "slug": "can-facebook-fix-himself",
+      "description": "Article Description. Will be used for SEO",
+      "author": {
+        "id": 2
+      },
+      "category": {
+        "id": 2
+      },
+      "content": "Nam libero justo laoreet sit amet cursus. Fringilla ut morbi tincidunt augue. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget.\n\n> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n### Simple default styles for headings\n\nFeugiat in fermentum posuere urna nec tincidunt praesent. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. \n\n#### Simple default styles for headings\n\nEnim praesent elementum facilisis leo. Auctor elit sed vulputate mi sit amet mauris. Feugiat in ante metus dictum at. Adipiscing elit duis tristique sollicitudin nibh. Adipiscing tristique risus nec feugiat. Quisque sagittis purus sit amet. Eget sit amet tellus cras adipiscing enim eu turpis egestas.",
+      "cover": null
+    },
+    {
+      "title": "The North American Geopolitics",
+      "slug": "the-north-american-geopolitics",
+      "description": "Article Description. Will be used for SEO",
+      "author": {
+        "id": 3
+      },
+      "category": {
+        "id": 3
+      },
+      "content": "Nam libero justo laoreet sit amet cursus. Fringilla ut morbi tincidunt augue. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget.\n\n> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n### Simple default styles for headings\n\nFeugiat in fermentum posuere urna nec tincidunt praesent. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. \n\n#### Simple default styles for headings\n\nEnim praesent elementum facilisis leo. Auctor elit sed vulputate mi sit amet mauris. Feugiat in ante metus dictum at. Adipiscing elit duis tristique sollicitudin nibh. Adipiscing tristique risus nec feugiat. Quisque sagittis purus sit amet. Eget sit amet tellus cras adipiscing enim eu turpis egestas.",
+      "cover": null
+    },
+    {
+      "title": "The art of disclosure ",
+      "slug": "the-art-of-disclosure",
+      "description": "Article Description. Will be used for SEO",
+      "author": {
+        "id": 1
+      },
+      "category": {
+        "id": 4
+      },
+      "content": "Nam libero justo laoreet sit amet cursus. Fringilla ut morbi tincidunt augue. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget.\n\n> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n### Simple default styles for headings\n\nFeugiat in fermentum posuere urna nec tincidunt praesent. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. \n\n#### Simple default styles for headings\n\nEnim praesent elementum facilisis leo. Auctor elit sed vulputate mi sit amet mauris. Feugiat in ante metus dictum at. Adipiscing elit duis tristique sollicitudin nibh. Adipiscing tristique risus nec feugiat. Quisque sagittis purus sit amet. Eget sit amet tellus cras adipiscing enim eu turpis egestas.",
+      "cover": null
+    }
+  ],
+  "global": {
+    "site_name": "Magazine",
+    "site_url": "https://magazine-starter.vercel.app",
+    "description": "All-in-one open source digital magazine starter kit with high performance and fully customizable.",
+    "social_urls": {
+      "twitter":  null,
+      "instagram": null,
+      "facebook": null,
+      "youtube": null,
+      "linkedin": null,
+      "contact_email": null
+    },
+    "cover": null
+  }
+}
